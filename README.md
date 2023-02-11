@@ -1,5 +1,6 @@
 # JMeter Demo Project
 This is a sample project for load testing on a Demo Store using JMeter, which uses data driven test approach together with the following features:
+
 	* Number of Threads (users), Ramp-Up Period, and Loop Count are defined through variables in the Test Plan
 	* CSV Data Set Config to read the test data
 	* Transaction Controller to group requests according to the functionality being tested
