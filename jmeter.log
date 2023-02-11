@@ -1,0 +1,215 @@
+2023-02-10 23:32:07,229 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-02-10 23:32:07,238 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-02-10 23:32:07,238 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-5.0\bin\system.properties
+2023-02-10 23:32:07,244 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2023-02-10 23:32:07,244 INFO o.a.j.JMeter: Version 5.0 r1840935
+2023-02-10 23:32:07,244 INFO o.a.j.JMeter: java.version=1.8.0_291
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: os.name=Windows 10
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: os.arch=amd64
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: os.version=10.0
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-02-10 23:32:07,245 INFO o.a.j.JMeter: Available Processors =8
+2023-02-10 23:32:07,247 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-02-10 23:32:07,248 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-02-10 23:32:07,248 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.0
+2023-02-10 23:32:07,248 INFO o.a.j.JMeter: user.dir  =D:\Automation\Jmeter\jmeter-demo
+2023-02-10 23:32:07,248 INFO o.a.j.JMeter: PWD       =D:\Automation\Jmeter\jmeter-demo
+2023-02-10 23:32:07,253 INFO o.a.j.JMeter: IP: 192.168.1.14 Name: DESKTOP-SQSJC7S FullName: DESKTOP-SQSJC7S
+2023-02-10 23:32:07,297 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Automation\Jmeter\jmeter-demo\HTMLReport'
+2023-02-10 23:32:07,300 INFO o.a.j.s.FileServer: Default base='D:\Automation\Jmeter\jmeter-demo'
+2023-02-10 23:32:07,302 INFO o.a.j.s.FileServer: Set new base='D:\Automation\Jmeter\jmeter-demo'
+2023-02-10 23:32:07,404 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-02-10 23:32:07,413 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-02-10 23:32:07,416 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-02-10 23:32:07,421 INFO o.a.j.s.SaveService: Loading file: jmeterdemo.jmx
+2023-02-10 23:32:07,619 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2023-02-10 23:32:07,619 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\apache-jmeter-5.0\bin\proxyserver.jks
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-02-10 23:32:07,635 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-02-10 23:32:07,670 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-02-10 23:32:07,674 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2023-02-10 23:32:07,674 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: TestResults.csv
+2023-02-10 23:32:07,674 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\apache-jmeter-5.0\bin\reportgenerator.properties
+2023-02-10 23:32:07,674 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2023-02-10 23:32:07,678 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2023-02-10 23:32:07,679 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2023-02-10 23:32:07,680 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2023-02-10 23:32:07,683 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,683 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2023-02-10 23:32:07,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2023-02-10 23:32:07,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2023-02-10 23:32:07,689 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-02-10 23:32:07,690 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 23:32:07,690 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-02-10 23:32:07,695 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-02-10 23:32:07,696 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-02-10 23:32:07,949 INFO o.a.j.JMeter: Running test (1676082727949)
+2023-02-10 23:32:07,976 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Product Purchase Thread Group
+2023-02-10 23:32:07,976 INFO o.a.j.e.StandardJMeterEngine: Starting 30 threads for group Product Purchase Thread Group.
+2023-02-10 23:32:07,976 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-02-10 23:32:07,976 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=30 ramp-up=60 perThread=2000.0 delayedStart=false
+2023-02-10 23:32:08,016 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-02-10 23:32:08,016 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-02-10 23:32:08,030 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-02-10 23:32:08,030 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-02-10 23:32:08,030 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-02-10 23:32:08,030 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-02-10 23:32:08,033 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-1
+2023-02-10 23:32:08,035 INFO o.a.j.s.FileServer: Stored: D:/Automation/Jmeter/jmeter-demo/product-data.csv
+2023-02-10 23:32:08,036 INFO o.a.j.s.FileServer: Stored: D:/Automation/Jmeter/jmeter-demo/login-data.csv
+2023-02-10 23:32:08,056 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-SQSJC7S
+2023-02-10 23:32:08,064 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-02-10 23:32:08,138 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-02-10 23:32:08,142 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-02-10 23:32:08,142 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-02-10 23:32:08,625 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-02-10 23:32:08,626 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-02-10 23:32:08,626 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-02-10 23:32:10,032 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-2
+2023-02-10 23:32:11,071 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-1
+2023-02-10 23:32:11,071 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-1
+2023-02-10 23:32:11,993 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-2
+2023-02-10 23:32:11,994 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-2
+2023-02-10 23:32:12,038 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-3
+2023-02-10 23:32:13,843 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-3
+2023-02-10 23:32:13,844 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-3
+2023-02-10 23:32:14,037 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-4
+2023-02-10 23:32:15,846 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-4
+2023-02-10 23:32:15,846 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-4
+2023-02-10 23:32:16,043 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-5
+2023-02-10 23:32:17,830 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-5
+2023-02-10 23:32:17,830 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-5
+2023-02-10 23:32:18,034 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-6
+2023-02-10 23:32:19,983 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-6
+2023-02-10 23:32:19,983 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-6
+2023-02-10 23:32:20,032 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-7
+2023-02-10 23:32:22,035 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-8
+2023-02-10 23:32:22,046 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-7
+2023-02-10 23:32:22,046 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-7
+2023-02-10 23:32:23,828 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-8
+2023-02-10 23:32:23,829 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-8
+2023-02-10 23:32:24,044 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-9
+2023-02-10 23:32:25,718 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-9
+2023-02-10 23:32:25,719 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-9
+2023-02-10 23:32:26,034 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-10
+2023-02-10 23:32:27,745 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-10
+2023-02-10 23:32:27,746 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-10
+2023-02-10 23:32:28,036 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-11
+2023-02-10 23:32:29,931 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-11
+2023-02-10 23:32:29,931 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-11
+2023-02-10 23:32:30,035 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-12
+2023-02-10 23:32:31,730 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-12
+2023-02-10 23:32:31,730 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-12
+2023-02-10 23:32:32,038 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-13
+2023-02-10 23:32:33,655 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-13
+2023-02-10 23:32:33,655 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-13
+2023-02-10 23:32:34,036 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-14
+2023-02-10 23:32:35,686 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-14
+2023-02-10 23:32:35,688 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-14
+2023-02-10 23:32:36,034 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-15
+2023-02-10 23:32:37,707 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-15
+2023-02-10 23:32:37,707 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-15
+2023-02-10 23:32:38,046 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-16
+2023-02-10 23:32:39,860 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-16
+2023-02-10 23:32:39,860 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-16
+2023-02-10 23:32:40,037 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-17
+2023-02-10 23:32:41,666 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-17
+2023-02-10 23:32:41,666 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-17
+2023-02-10 23:32:42,033 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-18
+2023-02-10 23:32:43,708 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-18
+2023-02-10 23:32:43,708 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-18
+2023-02-10 23:32:44,038 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-19
+2023-02-10 23:32:45,698 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-19
+2023-02-10 23:32:45,698 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-19
+2023-02-10 23:32:46,033 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-20
+2023-02-10 23:32:47,629 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-20
+2023-02-10 23:32:47,630 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-20
+2023-02-10 23:32:48,042 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-21
+2023-02-10 23:32:49,714 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-21
+2023-02-10 23:32:49,715 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-21
+2023-02-10 23:32:50,033 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-22
+2023-02-10 23:32:51,734 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-22
+2023-02-10 23:32:51,734 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-22
+2023-02-10 23:32:52,034 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-23
+2023-02-10 23:32:53,608 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-23
+2023-02-10 23:32:53,608 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-23
+2023-02-10 23:32:54,039 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-24
+2023-02-10 23:32:55,668 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-24
+2023-02-10 23:32:55,669 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-24
+2023-02-10 23:32:56,035 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-25
+2023-02-10 23:32:57,712 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-25
+2023-02-10 23:32:57,712 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-25
+2023-02-10 23:32:58,032 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-26
+2023-02-10 23:32:59,653 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-26
+2023-02-10 23:32:59,653 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-26
+2023-02-10 23:33:00,032 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-27
+2023-02-10 23:33:01,688 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-27
+2023-02-10 23:33:01,688 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-27
+2023-02-10 23:33:02,037 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-28
+2023-02-10 23:33:03,679 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-28
+2023-02-10 23:33:03,679 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-28
+2023-02-10 23:33:04,039 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-29
+2023-02-10 23:33:05,673 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-29
+2023-02-10 23:33:05,673 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-29
+2023-02-10 23:33:06,036 INFO o.a.j.t.JMeterThread: Thread started: Product Purchase Thread Group 1-30
+2023-02-10 23:33:07,746 INFO o.a.j.t.JMeterThread: Thread is done: Product Purchase Thread Group 1-30
+2023-02-10 23:33:07,746 INFO o.a.j.t.JMeterThread: Thread finished: Product Purchase Thread Group 1-30
+2023-02-10 23:33:07,748 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-02-10 23:33:07,748 INFO o.a.j.s.FileServer: Close: D:/Automation/Jmeter/jmeter-demo/product-data.csv
+2023-02-10 23:33:07,749 INFO o.a.j.s.FileServer: Close: D:/Automation/Jmeter/jmeter-demo/login-data.csv
+2023-02-10 23:33:07,751 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+2023-02-10 23:33:07,752 INFO o.a.j.JMeter: Generating Dashboard
+2023-02-10 23:33:07,752 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2023-02-10 23:33:07,830 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2023-02-10 23:33:07,914 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2023-02-10 23:33:07,914 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2023-02-10 23:33:07,916 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2023-02-10 23:33:07,917 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2023-02-10 23:33:07,922 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2023-02-10 23:33:07,925 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2023-02-10 23:33:07,925 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2023-02-10 23:33:07,925 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2023-02-10 23:33:07,936 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2023-02-10 23:33:07,936 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2023-02-10 23:33:07,936 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2023-02-10 23:33:07,936 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2023-02-10 23:33:07,946 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2023-02-10 23:33:07,946 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1260 samples
+2023-02-10 23:33:07,946 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2023-02-10 23:33:07,946 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2023-02-10 23:33:07,946 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2023-02-10 23:33:07,948 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2023-02-10 23:33:07,948 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2023-02-10 23:33:07,948 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2023-02-10 23:33:07,951 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2023-02-10 23:33:07,951 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2023-02-10 23:33:07,951 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2023-02-10 23:33:07,951 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2023-02-10 23:33:07,952 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 4950 samples
+2023-02-10 23:33:07,952 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 990 samples
+2023-02-10 23:33:07,952 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 330 samples
+2023-02-10 23:33:07,952 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 330 samples produced in 99ms on channel 0
+2023-02-10 23:33:07,952 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2023-02-10 23:33:07,955 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Automation\Jmeter\jmeter-demo\HTMLReport
+2023-02-10 23:33:07,956 WARN o.a.j.r.d.HtmlTemplateExporter: No serie matches the series_filter: series_filter in graph: totalTPS
+2023-02-10 23:33:08,032 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Automation\Jmeter\jmeter-demo\HTMLReport, creating folder structure
+2023-02-10 23:33:08,328 INFO o.a.j.JMeter: Dashboard generated
