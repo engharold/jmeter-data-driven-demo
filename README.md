@@ -6,5 +6,5 @@ This is a sample project for load testing on a Demo Store using JMeter, which us
 	* Transaction Controller to group requests according to the functionality being tested
 	* Response Assertion to validate the desired text content in the response
 	* Regular Expression Extractor to extract the information needed (e.g. Authentication Token)
-	* Debug PostProcessor to investigate any issue found during test run on GUI modef
+	* Debug PostProcessor to investigate any issue found during test run on GUI mode
 	* HTML Report generated automatically when executing the test through command line using the batch file included in the project
